@@ -1,0 +1,21 @@
+{
+  "name": "nongye",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ali-oss": "^6.17.1",
+    "axios": "^0.27.2",
+    "Base64": "^1.1.0",
+    "co": "^4.6.0",
+    "crypto-js": "^4.1.1",
+    "js-base64": "^3.7.2",
+    "stylus": "^0.57.0",
+    "tencentcloud-sdk-nodejs": "^4.0.335"
+  }
+}

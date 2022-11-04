@@ -1,0 +1,138 @@
+.sendlease
+	.tool
+		padding 3%
+		font-size var(--font-size-normal)
+		.save-button
+			padding 10rpx 20rpx
+			border 1px solid #ccc
+			border-radius 40rpx
+		.send-button
+			padding 12rpx 32rpx
+			background var(--color-theme)
+			color white
+			border-radius 40rpx
+			&.delete
+				background var(--color-red)
+				
+	.clear
+		clear both
+	.money-input-container
+		width 100vw
+		height 100vh
+		position fixed
+		top 0
+		left 0
+		background #7373738c
+		z-index 1
+		.money-input
+			position absolute
+			bottom 0
+			left 0
+			box-sizing border-box
+			width 100%
+			padding 5%
+			background white
+			.money-input-right
+				font-size var(--font-size-large)
+				margin-left 15rpx
+			.money-input-confirm
+				background-color var(--color-setheme)
+				width 100rpx
+				height 60rpx
+				font-size var(--font-size-normal)
+				border-radius 6rpx
+				color #ffffff
+	.classification
+		margin-top 20rpx
+	.classification-list
+		padding 0 15rpx
+		padding-top 15rpx
+		flex-wrap wrap
+		.classification-list-item
+			margin-right 20rpx
+			margin-bottom 15rpx
+			padding 8rpx 18rpx
+			border-radius 30rpx
+			font-size var(--font-size-small)
+			border 1px solid #ffffff
+			// color var(--color-grey)
+			transition all .2s
+			&.active
+				border 1px solid var(--color-deep-setheme)
+				color var(--color-deep-setheme)
+	.list
+		height 100rpx
+		padding 0 5%
+		font-size var(--font-size-big)
+		&.money
+			position relative
+			.list-right
+				color red
+			.money-input
+				position absolute
+				right 0
+				top 0
+				height 60rpx
+				width 30%
+				opacity 0
+		.iconfont
+			font-size 46rpx
+			margin-right 15rpx
+			position relative
+			top 1px
+			&.icon-jiantou
+				font-size 26rpx
+				margin-right 0
+				color black
+				margin-left 8rpx
+				transition all .2s
+				&.active
+					transform rotate(90deg)
+	.location
+		background #f1f1f1
+		padding 10rpx 20rpx
+		border-radius 45rpx
+		float left
+		margin-left 4%
+		color var(--color-grey)
+		font-size var(--font-size-small)
+		.iconfont
+			margin-right 5rpx
+		.icon-weizhi
+			font-size 28rpx
+			position relative
+			top 1rpx
+		.icon-jiantou
+			font-size 20rpx
+	.content-input
+		padding 20rpx
+		padding-top 10rpx
+		font-size var(--font-size-big)
+		width 100%
+		box-sizing border-box
+	.photo-list
+		flex-wrap wrap
+		padding 0 3%
+		.photo-item
+			width 30vw
+			margin-bottom 2%
+			height 30vw
+			border-radius 6rpx
+			color var(--color-grey)
+			overflow hidden
+			background #f1f1f1
+			margin-right 2%
+			position relative
+			font-size var(--font-size-normal)
+			&:nth-child(2n+3)
+				margin-right 0
+			.icon-tabguanbi
+				font-size 44rpx
+				position absolute
+				right 0
+				bottom 0
+				color #4e4e4e
+			image
+				width 100%
+				height 100%
+		

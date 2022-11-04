@@ -1,0 +1,83 @@
+.myCollect
+	width 100%
+	// background-color #BFBFBF
+	height calc(100vh)
+	.index-content
+		.index-swiper
+			height 2%
+			background var(--color-theme)
+		.index-main
+			background white
+			position relative
+			bottom 40rpx
+			// border-top-left-radius 40rpx
+			// border-top-right-radius 40rpx
+			overflow hidden
+			z-index 1
+			padding-top 20rpx
+			.module-machine
+				padding-bottom 5%
+				.machineintro-container
+					align-items flex-start
+					padding-top 5%
+					.machineintro-container-left,
+					.machineintro-container-right
+						align-items center
+						flex-wrap wrap
+					.machineintro-listitem
+						margin-bottom 3%
+						display block
+						&:nth-child(odd)
+							position relative
+							left .5%
+						&:nth-child(even)
+							position relative
+							right .5%
+			.module-knowledge
+				padding-bottom 5%
+			.module-nongzi
+				width 100%
+				.feed
+					width 100%
+					.feedListFather
+						padding-top 3%
+						width 100%
+						padding-left 3%
+						// height 1000rpx
+						flex-wrap wrap
+						.feedList
+							// margin-top 5%
+							margin-bottom 3%
+							// margin-left 1%
+							&:nth-child(odd)
+								position relative
+								// left 1%
+								margin-right 4%
+							&:nth-child(even)
+								position relative
+								// right 1%
+			.module-community
+				width 100%
+				// height calc(100vh)
+				.communityFather
+					padding-top 5%
+					width 100%
+					// background-color #D2D2D2
+					// height calc(100vh)
+					flex-wrap wrap
+					// display flex
+					// flex-direction column
+					// flex-wrap wrap
+					.communityList
+						// margin-top 5%
+						margin-bottom 4%
+						height 40vh
+						// margin-left 1%
+						&:nth-child(odd)
+							position relative
+							left 1%
+						&:nth-child(even)
+							position relative
+							right 1%
+						
+				

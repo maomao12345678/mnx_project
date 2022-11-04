@@ -1,0 +1,64 @@
+.machineintro
+	width 50vw
+	&.skeleton
+		color #f1f1f1
+		.intro-title
+			background #f1f1f1
+			border-left 0 !important
+		.intro-content
+			color #f1f1f1 !important
+			background #f1f1f1
+			min-width 100%
+		image
+			height 30vh
+	.machineintro-item
+		width 92%
+		height 100%
+		flex-direction column
+		box-shadow 0px 1px 3px #ccc
+		border-radius 10rpx
+		overflow hidden
+		position relative
+		bottom 0
+		transition all .2s
+		&:hover
+			bottom 10rpx
+			box-shadow 0px 1px 6px #a8a8a8
+		image
+			border-top-left-radius 10rpx
+			border-top-right-radius 10rpx
+			background #f1f1f1
+			width 100%
+		.machineintro-intro
+			flex-direction column
+			align-items flex-start
+			width 100%
+			box-sizing border-box
+			font-size var(--font-size-normal)
+			padding 4% 20rpx
+			.intro-title
+				border-left 8rpx solid var(--color-theme)
+				border-radius 2px
+				padding-left 20rpx
+			.intro-content
+				font-size var(--font-size-small)
+				color var(--color-grey)
+				overflow hidden
+				text-overflow ellipsis
+				display -webkit-box
+				-webkit-box-orient vertical
+				-webkit-line-clamp 2
+				margin 5% 0
+			.intro-func
+				width 100%
+				.intro-tip
+					border-radius 4rpx
+					padding 4rpx 10rpx
+					background var(--color-shallow-theme)
+					color var(--color-deep-theme)
+					font-size var(--font-size-tiny)
+					font-weight bold
+				.intro-collect,
+				.intro-nocollect
+					color var(--color-theme)
+					font-size 46rpx

@@ -1,0 +1,102 @@
+.leasegood
+	width 50vw
+	&.skeleton
+		color #f1f1f1
+		image
+			height 30vh
+		.intro-title
+			background-color #f1f1f1
+		.intro-content
+			margin-top 2%
+			background-color #f1f1f1
+		.intro-money
+			background-color #f1f1f1
+			color #f1f1f1 !important
+			.intro-user
+				background-color #f1f1f1
+			.intro-classify
+				background-color #f1f1f1
+		.leasegood-intro
+			padding 0 20rpx !important
+			.user-name
+				color #f1f1f1 !important
+				background-color #f1f1f1
+	.leasegood-item
+		width 92%
+		background white
+		height 100%
+		flex-direction column
+		// box-shadow 0px 3px 6px #ccc  
+		border-radius 10rpx
+		overflow hidden
+		position relative
+		bottom 0
+		transition all .2s
+			image
+				height 30%
+		image
+			border-top-left-radius 10rpx
+			border-top-right-radius 10rpx
+			background #f1f1f1
+			width 100%
+		.leasegood-intro
+			flex-direction column
+			align-items flex-start
+			width 100%
+			box-sizing border-box
+			font-size var(--font-size-big)
+			padding 4% 20rpx
+			.intro-last
+				width 100%
+			.intro-classify
+				color var(--color-theme)
+				font-size var(--font-size-tiny)
+				padding 2rpx 8rpx
+				border 1px solid var(--color-theme)
+				border-radius 30rpx
+				flex-shrink 0
+			.intro-money
+				color red
+				font-size var(--font-size-large)
+				margin-bottom 4%
+				width 100%
+			.intro-user
+				margin-right 10rpx
+				image
+					width 50rpx
+					height 50rpx
+					border-radius 50%
+					margin-right 6rpx
+				.user-name
+					font-size var(--font-size-small)
+					color var(--color-grey)
+					overflow hidden
+					display -webkit-box
+					-webkit-box-orient vertical
+					-webkit-line-clamp 1
+					text-overflow ellipsis
+			.intro-title
+				// border-left 8rpx solid var(--color-theme)
+				border-radius 2px
+				// padding-left 20rpx
+			.intro-content
+				font-size var(--font-size-normal)
+				overflow hidden
+				text-overflow ellipsis
+				display -webkit-box
+				-webkit-box-orient vertical
+				-webkit-line-clamp 2
+				margin 5% 0
+			.intro-func
+				width 100%
+				.intro-tip
+					border-radius 4rpx
+					padding 4rpx 10rpx
+					background var(--color-shallow-theme)
+					color var(--color-deep-theme)
+					font-size var(--font-size-tiny)
+					font-weight bold
+				.intro-collect,
+				.intro-nocollect
+					color var(--color-theme)
+					font-size 46rpx

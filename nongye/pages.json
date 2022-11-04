@@ -1,0 +1,257 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "牧农兴",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/start/start",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},{
+			"path" : "pages/search/search",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "牧农兴",
+				"navigationStyle": "custom"
+			}
+		},{
+			"path": "pages/lease/lease",
+			"style": {
+				"navigationBarTitleText": "牧农兴"
+			}
+		},{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "牧农兴"
+			}	
+		}],
+	"subPackages": [
+		{
+			"root": "pages-knowledge",
+			"pages": [
+				{
+					"path" : "machineModuleDetail/machineModuleDetail",
+					"style" :                                                                                    
+					{
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false,
+						"navigationBarTextStyle": "white"
+					}
+				}, {
+					"path" : "agriculturalDetail/agriculturalDetail",
+					"style" :                                                                                    
+					{
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false,
+						"navigationBarTextStyle": "white"
+					}
+				}, {
+					"path" : "machineDetail/machineDetail",
+					"style" :                                                                                    
+					{
+						"navigationBarTitleText": "牧农兴",
+						"enablePullDownRefresh": false,
+						"navigationBarTextStyle": "white"
+					}
+				}, {
+					"path" : "agriculturalContentDetail/agriculturalContentDetail",
+					"style" :                                                                                    
+					{
+							"navigationBarTitleText": "",
+							"enablePullDownRefresh": false
+					}
+				}, {
+					"path" : "medicineMore/medicineMore",
+					"style" :                                                                                    
+					{
+							"navigationBarTitleText": "",
+							"enablePullDownRefresh": false
+					}
+				}, {
+					"path" : "fertilizerMore/fertilizerMore",
+					"style" :                                                                                    
+					{
+							"navigationBarTitleText": "",
+							"enablePullDownRefresh": false
+					}
+				}, {
+					"path" : "medicineMessage/medicineMessage",
+					"style" :                                                                                    
+					{
+							"navigationBarTitleText": "",
+							"enablePullDownRefresh": false
+					}
+				}, {
+					"path" : "feedMore/feedMore",
+					"style" :                                                                                    
+					{
+							"navigationBarTitleText": "",
+							"enablePullDownRefresh": false
+					}
+				}, {
+					"path" : "feedMessage/feedMessage",
+					"style" :                                                                                    
+					{
+							"navigationBarTitleText": "",
+							"enablePullDownRefresh": false
+					}
+				}, {
+					"path" : "fertilizerMessage/fertilizerMessage",
+					"style" :                                                                                    
+					{
+							"navigationBarTitleText": "",
+							"enablePullDownRefresh": false
+					}
+				}
+			]
+		}, {
+			"root": "pages-lease",
+			"pages": [
+				{
+					"path" : "sendLease/sendLease",
+					"style" :                                                                                    
+					{
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+				} ,{
+					"path" : "goodsDetail/goodsDetail",
+					"style" :                                                                                    
+					{
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+				}
+      ]
+		}, {
+			"root": "pages-my",
+			"pages": [
+				{
+					"path" : "aboutUs/aboutUs",
+					"style" :                                                                                    
+					{
+							"navigationBarTitleText": "",
+							"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path" : "basicMessage/basicMessage",
+					"style" :                                                                                    
+					{
+							"navigationBarTitleText": "",
+							"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path" : "contactUs/contactUs",
+					"style" :                                                                                    
+					{
+							"navigationBarTitleText": "",
+							"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path" : "myBlog/myBlog",
+					"style" :                                                                                    
+					{
+							"navigationBarTitleText": "",
+							"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path" : "myBlogEdit/myBlogEdit",
+					"style" :                                                                                    
+					{
+							"navigationBarTitleText": "",
+							"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path" : "myBlogs/myBlogs",
+					"style" :                                                                                    
+					{
+							"navigationBarTitleText": "",
+							"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path" : "myUnload/myUnload",
+					"style" :                                                                                    
+					{
+							"navigationBarTitleText": "",
+							"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path" : "myCollect/myCollect",
+					"style" :                                                                                    
+					{
+							"navigationBarTitleText": "",
+							"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path" : "nongziCollectMessage/nongziCollectMessage",
+					"style" :                                                                                    
+					{
+							"navigationBarTitleText": "",
+							"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path" : "setting/setting",
+					"style" :                                                                                    
+					{
+							"navigationBarTitleText": "",
+							"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path" : "myMessage/myMessage",
+					"style" :                                                                                    
+					{
+							"navigationBarTitleText": "",
+							"enablePullDownRefresh": false
+					}
+				}
+			]
+		}, {
+			"root": "pages-community",
+			"pages": [
+				{
+					"path" : "communityBlog/communityBlog",
+					"style" :                                                                                    
+					{
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path" : "shareCommunity/shareCommunity",
+					"style" :                                                                                    
+					{
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "牧农兴",
+		//改了导航拦背景颜色
+		"navigationBarBackgroundColor": "#35ae6b",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {
+			"van-tabs": "/wxcomponents/vant/dist/tabs/index",
+			"van-tab": "/wxcomponents/vant/dist/tab/index"
+		}
+	}
+}

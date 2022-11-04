@@ -1,0 +1,205 @@
+// @import "~@/static/font/aaa.css"	
+.greenBackGround
+	// background-color #35AE6B
+	width 100%
+	height calc(100vh)
+.bgimg
+	height 32vh
+	width 100vw
+	position absolute
+	top 0
+	z-index 99
+.start
+	width 100%
+	height calc(100vh)
+	
+	.enterBTN
+		width 200rpx
+		height 110rpx
+		border 1px solid var(--color-theme)
+		color var(--color-theme)
+		border-radius 20rpx
+		overflow hidden
+		position absolute
+		left 50%
+		bottom 15%
+		transform translate(-50%, 0)
+		transition all .2s
+		&:hover
+			background #ccc
+	.startSlide
+		width 100%
+		height 100%
+		.munongSwiper
+			width 100%
+			height 100%
+			// background-color #35AE6B
+			// background url('https://pics4.baidu.com/feed/cefc1e178a82b901f6a4ad2a51d663713912ef04.jpeg?token=fd9f8735174ac67efb0c6e67ec5c7302') 
+			// background-size:100% 100%
+			display flex
+			flex-direction column
+			justify-content space-around
+			.munongTitle
+				color #FFFFFF
+				// font-size 100rpx
+				margin-bottom 70%
+				// display flex
+				// flex-direction column
+				// justify-content space-around
+				animation fadeIn .6s
+				position relative
+				width: 50vw;
+				height: 50vw;
+				border-radius: 50%;
+				overflow hidden
+				.mumongxingPhoto
+					width: 100%;
+					height: 100%;
+					transform: scale(1.1);
+					border-radius: 50%;
+			.munongText
+				color #FFFFFF
+				width 100%
+				margin-top 40%
+			.munongIcon
+				width 100%
+				color #FFFFFF
+				height 10%
+				margin-bottom 10%
+				margin-top 5%
+				.iconfont
+					font-size 50rpx
+		.welcomeSwiper
+			width 100%
+			height 100%
+			background-color #35AE6B
+			display flex
+			flex-direction column
+			justify-content space-around
+			.welcomeTitle
+				color #FFFFFF
+				font-size 50rpx
+				margin-bottom 5%
+				width 80%
+				margin-left 10%
+			.welcomeText
+				color #FFFFFF
+				width 80%
+				margin-left 10%
+				font-size var(--font-size-large)
+				display flex
+				flex-direction column
+				justify-content space-around
+				.text1
+					margin-bottom 10rpx
+				.text2
+					margin-bottom 10rpx
+			.welcomePhotos
+				width 80%
+				margin-left 10%
+				margin-top 5%
+				height 35%
+				overflow hidden
+				border-radius 10%
+				.slideshowPhoto
+					height 100%
+					width 100%
+					.examplePhoto
+						height 100%
+						width 100%
+			.welcomeFooter
+				width 100%
+				height 150rpx
+				.footerPhoto
+					width 100%
+					height 150rpx
+		.ruralRevitalizationSwiper
+			width 100%
+			height 100%
+			background-color #35AE6B
+			display flex
+			flex-direction column
+			justify-content space-between
+			.startTitleFather
+				width 100%
+				.startTitle
+					color #FFFFFF
+					font-size 50rpx
+					margin-bottom 5%
+					margin-left 10%
+			.startTextFather
+				width 100%
+				margin-bottom 2%
+				.startText
+					width 80%
+					color #FFFFFF
+					margin-left 10%
+					font-size var(--font-size-big)
+			.ruralRevitalizationPhotos
+				width 80%
+				height 30%
+				margin-left 10%
+				margin-bottom 7%
+				border-radius 10%
+				overflow hidden
+				.ruralRevitalizationPhoto
+					width 100%
+					height 100%
+					.ruralPhoto
+						width 100%
+						height 100%
+		.enterSwiper
+			width 100%
+			height 100%
+			background-color #35AE6B
+			display flex
+			flex-direction column
+			justify-content space-between
+			.enterPhotoFather
+				width 90%
+				height 30%
+				margin-left 5%
+				margin-top 5%
+				.enterPhoto
+					width 100%
+					border-radius 5%
+			.enterTitle
+				color #FFFFFF
+				font-size 40rpx
+				width 100%
+				margin-top 20%
+				.enterTitle1
+					width 100%
+					.enterTitle1Word
+						// width 80%
+						margin-left 10%
+				.enterTitle2
+					margin-top 5%
+					width 100%
+					.enterTitle2Word
+						padding-right 10%
+						// width 80%
+			.enterIndexBTNFather
+				width 100%
+				height 8%
+				margin-bottom 10%
+				.enterBTN
+					width 200rpx
+					height 100%
+					background-color #027335
+					color #FFFFFF
+					border-radius 30rpx
+					overflow hidden
+					
+@keyframes fadeIn
+	0%
+		bottom 8%
+		opacity 0
+	100%
+		bottom 0%
+		opacity 1
+// @font-face
+// 	font-family 'aaa'
+// 	font-style normal
+// 	font-weight normal
+// 	src url('~@/static/font/aaa.ttf') format('truetype')

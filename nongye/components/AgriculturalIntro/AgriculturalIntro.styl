@@ -1,0 +1,78 @@
+.agriculturalntro
+	width 100vw
+	padding 24rpx 20rpx
+	box-sizing border-box
+	border-bottom 1px solid #f1f1f1
+	&.skeleton
+		color #f1f1f1
+		.content-title
+			background #f1f1f1
+			border-left 0 !important
+			min-height 20% 
+			min-width 50%
+		.content-word
+			color #f1f1f1 !important
+			// background #f1f1f1
+			min-width 100%
+		image
+			height 30vh
+		.content-skeleton
+			// width 100%
+			background #f1f1f1
+			margin-top 15rpx
+			min-height 35rpx
+	.content
+		align-items flex-start
+		image
+			height 15vh
+			width 35%
+			background #f1f1f1
+			border-radius 8rpx
+		.content-left
+			flex-direction column
+			width 60%
+			height 15vh
+			box-sizing border-box
+			align-items flex-start
+			margin-right 15rpx
+			.content-title
+				font-size var(--font-size-normal)
+				line-height 45rpx
+				text-overflow ellipsis
+				display -webkit-box
+				-webkit-box-orient vertical
+				-webkit-line-clamp 2
+				overflow hidden
+			.content-word
+				overflow hidden
+				font-size var(--font-size-small)
+				text-overflow ellipsis
+				color var(--color-grey)
+				display -webkit-box
+				-webkit-box-orient vertical
+				-webkit-line-clamp 2
+				line-height 40rpx
+	.tip
+		margin-top 15rpx
+		font-size var(--font-size-small)
+		.tip-type
+			margin-right 15rpx
+			border-radius 4rpx
+			padding 4rpx 10rpx
+			background var(--color-shallow-theme)
+			color var(--color-deep-theme)
+			font-size var(--font-size-tiny)
+			font-weight bold
+	
+	.tip-video
+		border-radius 4rpx
+		padding 4rpx 10rpx
+		background var(--color-shallow-setheme)
+		color var(--color-deep-setheme)
+		font-size var(--font-size-tiny)
+		font-weight bold
+	.broadcast
+		&.active
+			color var(--color-deep-setheme)
+			.iconfont
+				color var(--color-deep-setheme)
